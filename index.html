@@ -1,7 +1,82 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+    <style>
+        #navbar{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: khaki;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        #welcome-section{
+            background: beige; 
+            height: 20vh;
+            width: 100%;
+            max-width:100%;
+            text-align: center;
+            padding: 300px 0;
+        }
+
+        .welcome-container{
+            height: 100;
+            width: 100vw;
+            max-width:100%;
+        }
+
+        li {
+            float: left;
+            border-right: 1px solid beige;
+        }
+
+        li:last-child {
+            border-right: none;
+        }
+
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: beige;
+        }
+
+        html {
+            margin: 0px;
+            min-height: 100%;
+        }
+        
+        body {
+            margin: 0px;
+            min-height: 100%;
+        }
+    </style>
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div class= "welcome-container">
+        <div id = "navbar">
+            <li><a href="portfolio-about.html">About Me</a></li>
+            <li><a href="https://github.com/saulgalaviz/portfolio">Projects</a></li>
+            <li><a href="#projects">Contact</a></li>
+        </div>
+
+
+    
+        <div id = "welcome-section">
+            <h1>Hello World</h1>
+            <p>Here Lies Saul's Story and Accomplishments</p>
+        </div>
+    </div>
 </body>
+
 </html>
