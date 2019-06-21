@@ -13,12 +13,11 @@
     background: beige; 
     font-style: italic;
     font-size: 25px;
-    position: absolute;
-    top: 50px;
     height: 20vh;
     width: 100%;
     max-width:100%;
     padding: 300px 0;
+
 }
 
 .contact-container{
