@@ -9,16 +9,16 @@
     width: 100%;
 }
 
-#welcome-section{
+#about-section{
     background: beige; 
     height: 20vh;
     width: 100%;
     max-width:100%;
-    text-align: center;
+    /* text-align: center; */
     padding: 300px 0;
 }
 
-.welcome-container{
+.about-container{
     height: 100;
     width: 100vw;
     max-width:100%;
