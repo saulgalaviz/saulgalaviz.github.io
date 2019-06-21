@@ -9,7 +9,7 @@
     width: 100%;
 }
 
-#welcome-section{
+#projects-section{
     background: beige; 
     height: 20vh;
     width: 100%;
@@ -18,7 +18,7 @@
     padding: 300px 0;
 }
 
-.welcome-container{
+.projects-container{
     height: 100;
     width: 100vw;
     max-width:100%;
