@@ -11,15 +11,17 @@
 
 #hello-world{
     background: beige; 
-    height: 20vh;
+    /* height: 20vh; */
+    height: 100%;
     width: 100%;
     max-width:100%;
     text-align: center;
     padding: 300px 0;
+    background-size: 100% 100%;
 }
 
 .background-container{
-    height: 100;
+    height: 100%;
     width: 100vw;
     max-width:100%;
 }
@@ -53,7 +55,6 @@ html {
  body {
     margin: 0px;
     min-height: 100%;
-    background-size: cover;
  }
 
 /* @media (max-width: 1000px){ 
