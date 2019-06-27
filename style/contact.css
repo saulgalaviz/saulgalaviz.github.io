@@ -10,15 +10,13 @@
 }
 
 #contact-section{
-    background: beige; 
     font-style: italic;
     font-size: 25px;
     vertical-align: top;
     height: 20vh;
     width: 100%;
     max-width:100%;
-    padding: 300px 0;
-
+    padding: 50px 0px;
 }
 
 .contact-container{
@@ -57,6 +55,7 @@ html {
     margin: 0px;
     min-height: 100%;
     background-size: cover;
+    background: beige; 
  }
 
 /* @media (max-width: 1000px){ 
