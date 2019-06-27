@@ -16,6 +16,8 @@
     width: 100%;
     max-width:100%;
     text-align: center;
+    font-size:50px;
+    font-family: 'B612 Mono', monospace;
     padding: 300px 0;
     background-size: 100% 100%;
 }
